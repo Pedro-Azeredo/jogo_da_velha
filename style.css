@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #0f0f0f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;   
+}
+
+.grade{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 6px;
+}
+
+.grade div{
+    color: whitesmoke;
+    background-color:midnightblue;    
+    height: 98.66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    cursor: pointer;
+    border: 2px solid whitesmoke;
+}
+
+
